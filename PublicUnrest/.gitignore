@@ -1,0 +1,16 @@
+# Ignore virtual environment
+venv
+
+# Python cache files
+__pycache__
+.pyc
+.pyo
+.pyd
+
+# Ignore VS Code workspace settings
+.vscode
+
+# Ignore PyPI build files (if ever used)
+build
+dist
+.egg-info
