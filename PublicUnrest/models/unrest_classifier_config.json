@@ -1,0 +1,9 @@
+{
+  "config": {
+    "name": "h256_lr1e-3",
+    "hidden": 256,
+    "dropout": 0.4,
+    "lr": 0.001
+  },
+  "best_dev_accuracy": 0.6566531514928123
+}
