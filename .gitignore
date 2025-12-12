@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.pyc
+
+# Trained model artifacts
+PublicUnrest/models/
+*.keras
+*.npy
+*.json
+
+# IDE / system
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
