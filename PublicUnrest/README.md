@@ -1,11 +1,24 @@
 ```markdown
 # PublicUnrest – ANN Project Implementation
 
-This folder contains the **final implementation** of the CCS 248 Artificial Neural Networks
-project for classifying levels of public unrest from social-media-style text.
+This directory contains the implementation artifacts for the **CCS 248 – Artificial Neural Networks**
+final project on **public unrest classification from text**.
 
-All neural networks in this folder are **trained from scratch**, with no pretrained models
-or external embeddings used.
+All neural networks in this project are **trained from scratch**, without pretrained models
+or external embeddings.
+
+---
+
+## 📓 Primary Implementation
+
+The main project workflow is implemented in **Jupyter notebooks**, located in the root
+`Notebooks/` directory:
+
+1. **Data preprocessing and label mapping**
+2. **Model training using TF-IDF + ANN**
+3. **Model evaluation and analysis**
+
+These notebooks constitute the **official submission code** for the project.
 
 ---
 
@@ -15,11 +28,13 @@ or external embeddings used.
 PublicUnrest/
 │
 ├── data/
-│   ├── raw/          # Reference copies of GoEmotions data
-│   └── processed/    # Preprocessed datasets used for training
+│   ├── raw/            # Reference copies of GoEmotions data
+│   └── processed/      # Preprocessed datasets for training and evaluation
 │
-├── src/              # Preprocessing, training, and evaluation scripts
+├── models/             # Saved trained ANN models
 │
-├── plots/            # Evaluation plots and figures
+├── plots/              # Evaluation plots (accuracy curves, confusion matrices, etc.)
 │
-└── documentation/    # Final report, diagrams, and supporting documents
+├── src/                # Reference Python scripts (legacy / non-primary)
+│
+└── documentation/      # Final report, diagrams, and supporting documents
